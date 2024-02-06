@@ -1,0 +1,15 @@
+.selectedlist {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+a {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color:  #91B7CC;
+  text-decoration: none;
+  padding: 10px 0 10px 0;
+}

@@ -1,0 +1,25 @@
+import { createSlice } from "@reduxjs/toolkit";
+
+const weatherReportSlice = createSlice({
+  name: 'weather',
+  initialState: {
+    weatherData: {
+      temp: null,
+      sunrise: null,
+      sunset: null,
+      timezone: null,
+      description: '',
+      icon: null
+    },
+  },
+  
+  reducers: {
+    setCurrentdata(state, action) {
+      state.weatherData = action.payload
+    }
+  }
+})
+
+export const weatherReportActions = weatherReportSlice.actions
+
+export default weatherReportSlice

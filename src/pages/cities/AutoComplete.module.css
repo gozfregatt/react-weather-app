@@ -1,0 +1,38 @@
+.wrapper{
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.inputfield {
+  background-color: #142534;
+  color: #91B7CC;
+  border: none;
+  border-bottom: 1px solid #3893B1; /* Add bottom border */
+  outline: none; /* Remove outline on focus */
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+.citylist {
+  display: flex;
+  flex-direction: column;
+  color: #277DBD;
+  overflow: hidden;
+  align-items: flex-start;
+  margin-block-start: 0.5rem;
+  list-style-type: none;
+  padding-inline-start: 0;
+
+}
+
+li {
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.match {
+  color: #91B7CC;
+}

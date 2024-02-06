@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  filter: invert(10%) sepia(88%) saturate(3602%) hue-rotate(202deg) brightness(97%) contrast(98%);
+}
+
+.text {
+  /* font-size: 14px; */
+  color: #3893B1;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+}

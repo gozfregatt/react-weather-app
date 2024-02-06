@@ -1,0 +1,14 @@
+.cityname {
+  color: #91B7CC;
+  margin: 1rem 0 1rem 0;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+
+}
+
+.description {
+  color: #91B7CC;
+  margin-bottom: 1rem;
+
+}
